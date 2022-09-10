@@ -24,5 +24,13 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Krlove\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
+            ]
+        }
     }
+
 }
